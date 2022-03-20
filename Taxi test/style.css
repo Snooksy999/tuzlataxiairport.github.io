@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    height: auto;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-bottom: solid;
+    border-bottom-color: #4d718b;
+    
+}
+
+.logo {
+    width: 230px;
+    cursor: pointer;
+}
+
+
+nav {
+    flex: 1;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 19px;
+}
+.call-us {
+    display: inline-block;
+    margin-top: 20px;
+    left: 700px;
+    background: linear-gradient(45deg, #ffd599, #c2d9fb);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    margin: 0px 20px;
+    margin-left: 70%;
+
+}
+
+.call-us a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+
+
+nav :hover {
+    color: white;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+}
+
+
+@media screen and (min-width: 1500px) {
+    .content h1 {
+        font-size: 140px;
+    }
+              
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .content h1 {
+        font-size: 120px;
+        padding-top: 0px;
+        text-align: center;  
+    }
+              
+}
+
+
+.content p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    color: rgb(51, 51, 51);
+}
+
+@media screen and (min-width: 1500px) {
+    .content p {
+        font-size: 80px;
+    }
+       
+}
+
+
+@media screen and (max-width: 1200px) {
+    .content p {
+        font-size: 65px;
+        text-align: center;
+        margin-left: 0px;
+    }
+       
+}
+
+@media screen and (max-width: 800px) {
+    .content p {
+        font-size: 55px;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+
+
+.content {
+    margin-top: 10%;
+    margin-left: 10%;
+} 
+
+.content a {
+    display: inline-block;
+    background: linear-gradient(45deg, #ffd599, #c2d9fb);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    transition: all 1s;
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        font-size: 50px;
+        font-weight: 100;
+        text-align: center;
+        padding: 70px 0px;
+        
+        
+        
+    }
+}
+
+
+.btn:hover{
+    color:white;
+    font-size: 20px;
+}
+.feature-img {
+    width: 63%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    filter: brightness(90%);
+}
+
+@media (max-width: 1200px) {
+    body {
+        height:100vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .feature-img {
+        padding: 30px 20px;
+        padding-bottom: 32em;
+        width: 1200px;
+        max-width: 100%;
+        max-height: 70%;
+        min-width: 100%;   
+        min-height: 30%;
+        bottom: 0px;
+        right: 10px;
+        left: 3px;
+        filter: brightness(90%);
+        
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .feature-img {
+        max-height: 95%;
+    }
+
+}
+
+
+
+.social-links {
+    transform: rotate(-90deg);
+    text-decoration: none;
+    position: absolute;
+    left: -140px;
+    bottom: 190px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color:rgb(51, 51, 51);
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.social-links :hover{
+
+    color: white;
+}
